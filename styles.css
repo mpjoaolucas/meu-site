@@ -1,0 +1,96 @@
+  *{
+  margin:0;
+  padding: 0;
+  border:0;
+  }
+
+  body {
+    background: #282a36;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+  }
+
+  header {
+    padding: 32px;
+    border-bottom: 1px solid;
+    border-color: chartreuse;
+    background: rgba(0,0,0,0.1);
+  }
+
+  .links {
+      text-align: center;
+  }
+
+  .links a {
+    color: chartreuse;
+    font-size: 30px;
+    line-height: 34px;
+    margin: 0 16px;
+    text-decoration: none;
+  }
+  .links a:hover {
+      color: #acff11;
+      transition: color 700ms;
+      font-size: 35px;
+      transition: font 700ms;         
+  }
+
+  #wrapper {
+     text-align: center;
+     padding: 32px;
+  }
+
+  #wrapper img{
+    border-radius: 50%;
+    border: 5px solid  chartreuse;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 32px;
+
+  }
+
+  #wrapper h1 {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;
+  }
+
+  #wrapper h2 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    margin-top: 8px;
+    opacity: 0.8;
+  }
+
+  .link{
+    color: chartreuse;
+    font-size: 25px;
+    text-decoration: none;
+    
+  }
+
+  .link:hover {
+      color: greenyellow;
+      font-size: 29px;
+      transition: color 700ms;
+      transition:font 700ms;        
+
+  }
+
+  #wrapper p {
+    max-width: 500px;
+    margin: 32px auto;
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  #links-footer a {
+    border-bottom: 1px solid #acff11
+  }
+
+  #links-footer {
+    margin-bottom: 34px;
+  }
+
+  
